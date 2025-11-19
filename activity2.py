@@ -1,10 +1,9 @@
-name = "Divyansh"
-age = 12
-student = True
-weight = 40.5
+actual_cost = float(input("please enter the actual price: "))
+sale_amount = float(input("please enter the sale amount: "))
 
-print("name:", name)
-print("data type of name is:", type(name))
+if (sale_amount > actual_cost):
+    amount = sale_amount - actual_cost
+    print("total profit = ", amount)
 
-age = str(age)
-print(age)
+else:
+    print("no profit")
