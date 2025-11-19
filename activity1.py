@@ -1,8 +1,7 @@
-a = 5
-print("type of a:", type(a))
-b = 2.5
-print("type of b:", type(b))
-c = "Divyansh"
-print("type of c:", type(c))
-d = True
-print("type of d:", type(d))
+num = 3
+if num > 0:
+  print(num,"positive number")
+
+num = -1
+if num > 0:
+  print(num,"positive number")
